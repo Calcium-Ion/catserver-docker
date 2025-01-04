@@ -13,4 +13,4 @@ COPY ./${JAR_FILE} /app/server.jar
 RUN chmod +x /app/server.jar
 
 # 设置容器启动命令
-ENTRYPOINT ["java", "-jar", "server.jar"]
+ENTRYPOINT ["java", "-jar", "/app/server.jar"]
