@@ -13,8 +13,8 @@
 
 1. 克隆此仓库：
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/Calcium-Ion/catserver-docker.git
+   cd catserver-docker
    ```
 
 2. 启动服务器：
