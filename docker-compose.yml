@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: java-app
+    environment:
+      - JAR_FILE=CatServer-1.16.5-1d8d6313-server.jar
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./minecraft_data:/app
