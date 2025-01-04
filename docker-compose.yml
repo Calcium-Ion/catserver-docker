@@ -6,6 +6,7 @@ services:
     container_name: java-app
     environment:
       - JAR_FILE=CatServer-1.16.5-1d8d6313-server.jar
+      - JAVA_OPTS=-Xmx4G -Xms2G
     ports:
       - "25565:25565"
     volumes:
