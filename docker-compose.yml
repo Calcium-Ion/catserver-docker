@@ -9,4 +9,5 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - ./minecraft_data:/app
+      - .:/app
+    working_dir: /app
