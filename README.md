@@ -17,17 +17,22 @@
    cd catserver-docker
    ```
 
-2. 启动服务器：
+2. 构建镜像：
+   ```bash
+   docker-compose build
+   ```
+
+3. 启动服务器：
    ```bash
    docker-compose up -d
    ```
 
-3. 查看服务器日志：
+4. 查看服务器日志：
    ```bash
    docker-compose logs -f
    ```
 
-4. 停止服务器：
+5. 停止服务器：
    ```bash
    docker-compose down
    ```
